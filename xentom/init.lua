@@ -6,7 +6,7 @@ minetest.register_craftitem("xentom:xentom_lump", {
 minetest.override_item("default:stone", {drop = {
     max_items = 1,
     items = {
-    {items = {'xentom:xentom_lump'}, rarity = 5},
+    {items = {'xentom:xentom_lump'}, rarity = 15},
     {items = {'default:cobble'}},
     }
 }})
