@@ -8,7 +8,9 @@ NEWS:
 -Hinzugefügt: axt,
 -hinzugefügt: XenTom Block,
 -Verbesserte drop Chancen von dem Lump (auf 50 erhöht),
--Verbesserte Haltbarkeit der Werkzeuge.
+-Verbesserte Haltbarkeit der Werkzeuge,
+-Bug behoben nicht craftbare Axt.
+-Bessere Texturen.
 
 This mod added an ore called xentom.This is to craft a pickaxe, shovel, block and an ax.This mod was written in co-operation by tomracer and xenoca.Recommendations or recommendations are welcome! IN FUTURE NEW UPDATES WILL COME! more tools ...
 THANK YOU
@@ -22,4 +24,7 @@ NEWS:
 -Added a XenTom block
 -rar = 50
 -improved uses for the tools (more then bevor)
+-better textures
+-Bug fixed (cant craft axe)
+
 
