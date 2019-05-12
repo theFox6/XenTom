@@ -110,7 +110,14 @@ minetest.register_tool("xentom:xentom_shovel", {
 	sound = {breaks = "default_tool_breaks"},
 })
 
-
+minetest.register_craft({
+	output = "xentom:xentom_shovel 1",
+	recipe = {
+		{"xentom:xentom_lump"},
+		{"default:stick"},
+		{"default:stick"}
+	}
+})
 
 minetest.register_craft({
 	output = 'xentom:block',
