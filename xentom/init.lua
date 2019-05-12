@@ -11,6 +11,8 @@ minetest.override_item("default:stone", {drop = {
     }
 }})
 
+
+
 minetest.register_node( "xentom:block", {
 	description = "XenTom Block",
 	tile_images = { "xentom_block.png" },
@@ -126,4 +128,14 @@ minetest.register_craft({
 		{'xentom:xentom_lump', 'default:stone', 'xentom:xentom_lump'},
 		{'xentom:xentom_lump', 'xentom:xentom_lump', 'xentom:xentom_lump'},
 	}
+})
+
+minetest.register_node("xentom:xentom_glass", {
+	description = "XenTom Glass",
+	drawtype = "glasslike_framed_optional",
+	tiles = {"xentom_glass.png"},
+	paramtype = "light",
+	sunlight_propagates = true,
+	groups = {snappy=1,cracky=2,oddly_breakable_by_hand=2},
+	sounds = default.node_sound_glass_defaults(),
 })
