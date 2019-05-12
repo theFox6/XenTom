@@ -22,7 +22,7 @@ minetest.register_node( "xentom:block", {
 minetest.register_tool("xentom:xentom_sword", {
 	description = "XenTom Sword",
 	inventory_image = "xentom_sword.png",
-	groups = {not_in_creative_inventory=1},
+	groups = {in_creative_inventory=1},
 	range = 7,
 	tool_capabilities = {
 		full_punch_interval = 01.0,
@@ -71,7 +71,7 @@ minetest.register_craft({
 minetest.register_tool("xentom:xentom_pickaxe", {
     description = "XenTom Pickaxe",
 	inventory_image = "xentom_pickaxe.png",
-	groups = {not_in_creative_inventory=1},
+	groups = {in_creative_inventory=1},
 	range = 3.4,
     tool_capabilities = {
         full_punch_interval = 1.1,
@@ -97,7 +97,7 @@ minetest.register_tool("xentom:xentom_shovel", {
 	description = "XenTom Shovel",
 	inventory_image = "xentom_shovel.png",
 	wield_image = "xentom_shovel.png^[transformR90",
-	groups = {not_in_creative_inventory=1},
+	groups = {in_creative_inventory=1},
 	range = 5,
 	tool_capabilities = {
 		full_punch_interval = 0.9,
