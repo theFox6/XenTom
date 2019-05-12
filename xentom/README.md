@@ -14,6 +14,7 @@ NEWS:
 -Bessere Texturen.
 -Hinzugefügt: XenTom glass
 -Bug behoben nicht craftbares xentom glass
+-Hinzugefügt XenTom apple (regeneriert alle leben)
 
 This mod added an ore called xentom.This is to craft a pickaxe, shovel, block and an ax.This mod was written in co-operation by tomracer and xenoca.Recommendations or recommendations are welcome! IN FUTURE NEW UPDATES WILL COME! more tools ...
 THANK YOU
@@ -33,3 +34,5 @@ NEWS:
 -Added xentom glass
 -Bug fixed (cant craft xentom glass)
 -Added xentom glass (creative)
+-Added a xentom apple (do you life fuel)20 hearts 
+
