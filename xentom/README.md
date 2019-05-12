@@ -3,3 +3,10 @@ DANKE
 
 NEWS:
 -Added a sceenshot
+-Added a pickaxe
+-Added a shovel
+-Added a axe
+-Added a XenTom block
+-rar = 50
+-improved uses for the tools (more then bevor)
+
