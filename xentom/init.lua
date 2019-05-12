@@ -148,3 +148,30 @@ minetest.register_craft({
 		{'xentom:xentom_lump', 'xentom:xentom_lump', 'xentom:xentom_lump'},
 	}
 })
+
+minetest.register_tool("xentom:xentom_hoe", {
+	description = "XenTom Axe",
+	inventory_image = "xentom_hoe.png",
+	tool_capabilities = {
+		max_drop_level=1,
+		groupcaps={
+			choppy={times={[1]=2.50, [2]=1.50, [3]=0.25}, uses=400, maxlevel=2},
+			fleshy={times={[2]=1.00, [3]=0.50}, uses=1200, maxlevel=1}
+		}
+	},
+})
+
+minetest.register_craftitem("xentom:xentom_apple", {
+    description = "XenTom apple",
+    inventory_image = "xentom_apple.png",
+    on_use = minetest.item_eat(20),
+})
+
+minetest.register_craft({
+	output = "xentom:xentom_apple 5",
+	recipe = {
+		{"xentom:xentom_lump"},
+		{"default:apple"},
+		{"xentom:xentom_lump"}
+	}
+})
