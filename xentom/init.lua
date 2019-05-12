@@ -51,7 +51,7 @@ minetest.register_tool("xentom:xentom_axe", {
 	tool_capabilities = {
 		max_drop_level=1,
 		groupcaps={
-			choppy={times={[1]=2.50, [2]=1.50, [3]=0.50}, uses=400, maxlevel=2},
+			choppy={times={[1]=2.50, [2]=1.50, [3]=0.25}, uses=400, maxlevel=2},
 			fleshy={times={[2]=1.00, [3]=0.50}, uses=1200, maxlevel=1}
 		}
 	},
