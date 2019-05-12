@@ -149,17 +149,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xentom:xentom_hoe", {
-	description = "XenTom Axe",
-	inventory_image = "xentom_hoe.png",
-	tool_capabilities = {
-		max_drop_level=1,
-		groupcaps={
-			choppy={times={[1]=2.50, [2]=1.50, [3]=0.25}, uses=400, maxlevel=2},
-			fleshy={times={[2]=1.00, [3]=0.50}, uses=1200, maxlevel=1}
-		}
-	},
-})
+
 
 minetest.register_craftitem("xentom:xentom_apple", {
     description = "XenTom apple",
@@ -173,5 +163,26 @@ minetest.register_craft({
 		{"xentom:xentom_lump"},
 		{"default:apple"},
 		{"xentom:xentom_lump"}
+	}
+})
+
+if minetest.get_modpath("farming") then
+    farming.register_hoe("xentom:xentom_hoe", {
+		description = "XenTom Hoe",
+		inventory_image = "xentom_hoe.png",
+		max_uses = 4000,
+		groups = {in_creative_inventory = 1},
+		range = 5,
+		damage_groups = {fleshy=1},
+	})
+	
+end
+
+minetest.register_craft({
+	output = 'xentom:xentom_hoe',
+	recipe = {
+		{'xentom:xentom_lump","xentom:xentom_lump'},
+		{'default:stick'},
+		{'default:stick'},
 	}
 })
