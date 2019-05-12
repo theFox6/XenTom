@@ -139,3 +139,12 @@ minetest.register_node("xentom:xentom_glass", {
 	groups = {snappy=1,cracky=2,oddly_breakable_by_hand=2},
 	sounds = default.node_sound_glass_defaults(),
 })
+
+minetest.register_craft({
+	output = 'xentom:xentom_glass 10',
+	recipe = {
+		{'xentom:xentom_lump', 'xentom:xentom_lump', 'xentom:xentom_lump'},
+		{'xentom:xentom_lump', 'default:glass', 'xentom:xentom_lump'},
+		{'xentom:xentom_lump', 'xentom:xentom_lump', 'xentom:xentom_lump'},
+	}
+})
