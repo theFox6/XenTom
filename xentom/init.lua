@@ -45,6 +45,29 @@ minetest.register_craft({
 	}
 })
 
+minetest.register_tool("xentom:xentom_axe", {
+	description = "XenTom Axe",
+	inventory_image = "xentom_axe.png",
+	tool_capabilities = {
+		max_drop_level=1,
+		groupcaps={
+			choppy={times={[1]=2.50, [2]=1.50, [3]=0.50}, uses=400, maxlevel=2},
+			fleshy={times={[2]=1.00, [3]=0.50}, uses=1200, maxlevel=1}
+		}
+	},
+})
+
+minetest.register_craft({
+	output = "xentom:xentom_axe 1",
+	recipe = {
+		{"xentom:xentom_lump","xentom:xentom_lump",""},
+		{"xentom:xentom_lump","default:stick",""},
+		{"","default:stick",""}
+	}
+})
+
+
+
 minetest.register_tool("xentom:xentom_pickaxe", {
     description = "XenTom Pickaxe",
 	inventory_image = "xentom_pickaxe.png",
@@ -82,19 +105,12 @@ minetest.register_tool("xentom:xentom_shovel", {
 		groupcaps={
 			crumbly = {times={[1]=1.00, [2]=0.40, [3]=0.50}, uses=386, maxlevel=5},
 		},
-		damage_groups = {fleshy=7},
+		damage_groups = {fleshy=3},
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
 
-minetest.register_craft({
-	output = "xentom:xentom_shovel 1",
-	recipe = {
-		{"", "xentom:xentom_lump", ""},
-		{"", "default:stick", ""},
-		{"", "default:stick", ""}
-	}
-})
+
 
 minetest.register_craft({
 	output = 'xentom:block',
