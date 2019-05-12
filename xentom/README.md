@@ -12,6 +12,8 @@ NEWS:
 -Bug behoben nicht craftbare Axt.
 -Bug behoben nicht craftbare Schaufel.
 -Bessere Texturen.
+-Hinzugefügt: XenTom glass
+-Bug behoben nicht craftbares xentom glass
 
 This mod added an ore called xentom.This is to craft a pickaxe, shovel, block and an ax.This mod was written in co-operation by tomracer and xenoca.Recommendations or recommendations are welcome! IN FUTURE NEW UPDATES WILL COME! more tools ...
 THANK YOU
@@ -28,5 +30,6 @@ NEWS:
 -better textures
 -Bug fixed (cant craft axe)
 -Bug fixed (cant craft shovel)
-
-
+-Added xentom glass
+-Bug fixed (cant craft xentom glass)
+-Added xentom glass (creative)
