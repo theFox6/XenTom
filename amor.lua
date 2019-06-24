@@ -1,4 +1,4 @@
-minetest.register_tool("xentom:Xentom_chestplate", {
+minetest.register_tool("xentom:xentom_chestplate", {
 	description = "XenTom Chestplate",
 	inventory_image = "3d_armor_chestplate_xentom.png",
     groups = {armor_torso=1, armor_heal=20, armor_use=35, armor_fire=3, in_creative_inventory=1},
@@ -26,9 +26,9 @@ minetest.register_tool("xentom:xentom_boots", {
     wear = 0,
 })
 
-minetest.register_tool("darks:dark_helmet", {
-	description = "Dark Helmet",
-	inventory_image = "3d_armor_helmet_dark.png",
+minetest.register_tool("xentom:xentom_helmet", {
+	description = "XenTom Helmet",
+	inventory_image = "3d_armor_helmet_xentom.png",
     groups = {armor_head=1, armor_heal=18, armor_use=25, armor_fire=2, in_creative_inventory=1},
     armor_groups = {fleshy =20},
     damage_groups = {cracky=2, snappy=1, level=3},
@@ -39,7 +39,7 @@ minetest.register_tool("darks:dark_helmet", {
 --- Registering Recipes
 
 minetest.register_craft({
-	output = "darks:dark_chestplate",
+	output = "xentom:xentom_chestplate",
 	recipe = {
 		{"xentom:xentom_lump", "", "xentom:xentom_lump"},
 		{"xentom:xentom_lump", "xentom:xentom_lump", "xentom:xentom_lump"},
@@ -48,16 +48,16 @@ minetest.register_craft({
 })
 
 minetest.register_craft({
-	output = "darks:dark_leggings",
+	output = "xentom:xentom_leggings",
 	recipe = {
-		{"xentom:xentom_lump", "darks:darksubstance", "darks:darksubstance"},
+		{"xentom:xentom_lump", "default:dirt", "default:dirt"},
 		{"xentom:xentom_lump", "", "xentom:xentom_lump"},
 		{"xentom:xentom_lump", "", "xentom:xentom_lump"},
 	},
 })
 
 minetest.register_craft({
-	output = "darks:dark_boots",
+	output = "xentom:xentom_boots",
 	recipe = {
 		{"xentom:xentom_lump", "", "xentom:xentom_lump"},
 		{"xentom:xentom_lump", "", "xentom:xentom_lump"},
@@ -65,7 +65,7 @@ minetest.register_craft({
 })
 
 minetest.register_craft({
-	output = "darks:dark_helmet",
+	output = "xentom:xentom_helmet",
 	recipe = {
 		{"xentom:xentom_lump", "xentom:xentom_lump", "xentom:xentom_lump"},
 		{"xentom:xentom_lump", "", "xentom:xentom_lump"},
