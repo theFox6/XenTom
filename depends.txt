@@ -1,2 +1,3 @@
 default
 farming
+optional_depends = 3d_armor
