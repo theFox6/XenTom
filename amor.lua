@@ -28,7 +28,7 @@ minetest.register_tool("xentom:xentom_boots", {
 
 minetest.register_tool("xentom:xentom_helmet", {
 	description = "XenTom Helmet",
-	inventory_image = "3d_armor_helmet_dark.png",
+	inventory_image = "3d_armor_helmet_xentom.png",
     groups = {armor_head=1, armor_heal=18, armor_use=25, armor_fire=2, in_creative_inventory=1},
     armor_groups = {fleshy =20},
     damage_groups = {cracky=2, snappy=1, level=3},
@@ -50,7 +50,7 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "xentom:xentom_leggings",
 	recipe = {
-		{"xentom:xentom_lump", "darks:darksubstance", "darks:darksubstance"},
+		{"xentom:xentom_lump", "default:dirt", "default:dirt"},
 		{"xentom:xentom_lump", "", "xentom:xentom_lump"},
 		{"xentom:xentom_lump", "", "xentom:xentom_lump"},
 	},
