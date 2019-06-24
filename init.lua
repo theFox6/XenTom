@@ -194,3 +194,12 @@ minetest.register_node( "xentom:fake_wool", {
 	groups = {cracky=3},
 	sounds = default.node_sound_defaults(),
 })
+
+minetest.register_craft({
+	output = 'xentom:fake_wool',
+	recipe = {
+		{'xentom:xentom_lump', 'xentom:xentom_lump', 'xentom:xentom_lump'},
+		{'xentom:xentom_lump', 'default:dirt', 'xentom:xentom_lump'},
+		{'xentom:xentom_lump', 'xentom:xentom_lump', 'xentom:xentom_lump'},
+	}
+})
