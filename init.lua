@@ -1,3 +1,7 @@
+if minetest.get_modpath("3d_armor") then
+	dofile(minetest.get_modpath("XenTom").."/armor.lua")
+end
+
 minetest.register_craftitem("xentom:xentom_lump", {
     description = "XenTom Lump",
     inventory_image = "xentom.png"
