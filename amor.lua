@@ -1,7 +1,7 @@
 minetest.register_tool("xentom:xentom_chestplate", {
 	description = "XenTom Chestplate",
 	inventory_image = "3d_armor_chestplate_xentom.png",
-    groups = {armor_torso=1, armor_heal=20, armor_use=35, armor_fire=3, in_creative_inventory=1},
+    groups = {armor_torso=1, armor_heal=25, armor_use=35, armor_fire=2, in_creative_inventory=1},
     armor_groups = {fleshy =20},
     damage_groups = {cracky=2, snappy=1, level=3},
     wear = 0,
