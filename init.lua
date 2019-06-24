@@ -186,3 +186,11 @@ minetest.register_craft({
 		{'default:stick'},
 	}
 })
+
+minetest.register_node( "xentom:fake_wool", {
+	description = "XenTom fake wool",
+	tile_images = { "wool.png" },
+	is_ground_content = true,
+	groups = {cracky=3},
+	sounds = default.node_sound_defaults(),
+})
